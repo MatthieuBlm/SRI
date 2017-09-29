@@ -1,4 +1,5 @@
 language: java
 
 script:
- -javac src/main/* -d bin/
+ - mkdir bin
+ - javac src/main/* -d bin/
