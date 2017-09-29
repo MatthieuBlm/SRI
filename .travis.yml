@@ -1,5 +1,10 @@
 language: java
 
+matrix:
+  include:
+    - java: "1.7"
+    - java: "1.8"
+
 script:
  - mkdir bin
  - javac src/main/* -d bin/
